@@ -1,0 +1,27 @@
+# Local Obsidian state
+.obsidian/workspace*.json
+.obsidian/cache/
+.obsidian/plugins/*/data.json
+
+# Large or private source materials
+01_raw_sources/**/*.pdf
+01_raw_sources/**/*.epub
+01_raw_sources/**/*.mobi
+01_raw_sources/**/*.zip
+01_raw_sources/**/*.mp4
+01_raw_sources/**/*.mov
+01_raw_sources/**/*.psd
+01_raw_sources/**/*.blend
+
+# Local clones and generated exports
+01_raw_sources/github_repos/*/
+01_raw_sources/open_source_games/*/
+outputs/
+work/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+
