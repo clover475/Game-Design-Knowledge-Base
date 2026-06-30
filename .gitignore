@@ -19,9 +19,19 @@
 outputs/
 work/
 
+# Local cloned third-party repositories for the Obsidian vault.
+# Keep their metadata in GameDesign_KB/02_indexes/repo_index.md instead.
+GameDesign_KB/01_open_resources/github_repos/*/
+GameDesign_KB/01_open_resources/gdd_examples/*/
+
+# User-provided book files are local-first; index them instead of committing by default.
+GameDesign_KB/00_books/*
+!GameDesign_KB/00_books/.gitkeep
+GameDesign_KB/01_open_resources/open_books/*
+!GameDesign_KB/01_open_resources/open_books/.gitkeep
+
 # OS/editor noise
 .DS_Store
 Thumbs.db
 *.tmp
 *.log
-
